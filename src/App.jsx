@@ -76,7 +76,7 @@ function App() {
   return (
     <>
       <div className="bg-gray-800 flex items-center justify-center lg:h-screen lg:py-10">
-        <div className="flex flex-col lg:flex-row w-full max-h-full max-w-6xl mx-auto min-h-full rounded-3xl shadow-lg m-auto bg-gray-100">
+        <div className="flex flex-col lg:flex-row w-full h-full max-w-6xl mx-auto rounded-3xl shadow-lg m-auto bg-gray-100">
           {/* form card section  */}
           <div className="form-container">
             <div className="w-full text-white flex items-center justify-center">
@@ -128,7 +128,7 @@ function App() {
             </div>
           </div>
           {/* info card section  */}
-          <div className="lg:w-2/4 p-5 max-h-full">
+          <div className="lg:w-2/4 p-5 max-h-screen overflow-y-auto">
             <Header />
             <div className="flex flex-col my-10">
               {/* card jsx  */}
