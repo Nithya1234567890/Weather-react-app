@@ -98,7 +98,7 @@ function App() {
           </div>
         </div>
         {/* info card section  */}
-        <div className="lg:w-2/4 p-5">
+        <div className="lg:w-2/4 p-5 h-full">
           <Header/>
           <div className="flex flex-col my-10">
             {/* card jsx  */}
