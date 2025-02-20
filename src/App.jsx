@@ -64,7 +64,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-gray-800 flex items-center justify-center h-screen lg:py-10">
+      <div className="bg-gray-800 flex items-center justify-center lg:h-screen lg:py-10">
       <div className="flex flex-col lg:flex-row w-full max-w-6xl mx-auto h-full rounded-3xl shadow-lg m-auto bg-gray-100">
           {/* form card section  */}
         <div className="form-container">
