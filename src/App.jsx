@@ -65,7 +65,7 @@ function App() {
   return (
     <>
       <div className="bg-gray-800 flex items-center justify-center lg:h-screen lg:py-10">
-      <div className="flex flex-col lg:flex-row w-full max-w-6xl mx-auto h-full rounded-3xl shadow-lg m-auto bg-gray-100">
+      <div className="flex flex-col lg:flex-row w-full max-w-6xl mx-auto min-h-full rounded-3xl shadow-lg m-auto bg-gray-100">
           {/* form card section  */}
         <div className="form-container">
           <div className="w-full text-white flex items-center justify-center">
@@ -78,7 +78,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center h-full">
+          <div className="flex flex-col items-center justify-center min-h-full">
             <h1 className="lg:pt-0 pt-20 text-white sm:text-2xl text-center">The Only Weather Forecast You Need</h1>
             <hr className="h-1 bg-white w-1/4 rounded-full my-5" />
             <form noValidate onSubmit={handleSubmit} className="flex justify-center w-full lg:mb-0 mb-16">
